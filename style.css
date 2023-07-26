@@ -1,0 +1,85 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+span {
+    color: #FF7629;
+}
+
+/* header */
+/* navbar */
+.navbar-brand {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.nav-item a {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+/* main */
+/* hero section */
+.hero {
+    background-image: url(images/hero-image.png);
+    height: 750px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.hero h1 {
+    padding-top: 96px;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 102px;
+}
+
+.hero p {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 74px 0;
+    line-height: 26px;
+}
+
+.hero a {
+    background-color: #FF7629;
+    padding: 10px 50px;
+    border-radius: 60px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* media quaries */
+/* Tablet */
+@media (max-width: 768px) {
+
+    /* hero section */
+    .hero {
+        height: 500px;
+    }
+
+    .hero h1 {
+        padding-top: 96px;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 52px;
+    }
+
+    .hero p {
+        font-size: 15px;
+        font-weight: 400;
+        margin: 34px 0;
+        line-height: 25px;
+    }
+
+}
