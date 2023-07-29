@@ -138,6 +138,20 @@ span {
     border: none;
 }
 
+/* package section */
+.pricing-item{
+    border: 1px solid black;
+    padding: 20px 0px;
+}
+
+.pricing-item .silver{
+    margin-left: 34px;
+}
+
+.pricing-item ul li{
+    list-style: none;
+}
+
 /* .testimonial */
 .testimonials-section {
     padding: 50px 0px 50px 0px;
