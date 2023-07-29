@@ -140,16 +140,33 @@ span {
 
 /* package section */
 .pricing-item{
-    border: 1px solid black;
-    padding: 20px 0px;
+    /* border: 1px solid black; */
+    padding: 60px;
+    height: 500px;
+    margin-right: 14px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .pricing-item .silver{
     margin-left: 34px;
+    margin-top: 44px;
 }
 
 .pricing-item ul li{
     list-style: none;
+    line-height: 24px;
+}
+
+.pricing-item:hover{
+    /* border: 1px solid black; */
+    padding: 60px;
+    height: 530px;
+    margin-right: 14px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #FF7629;
+    color: #fff;
 }
 
 /* .testimonial */
@@ -301,8 +318,7 @@ span {
 
 /* blog section */
 .card{
-    display: block;
-    border: none;
+    margin-bottom: 154px;
 }
 
 /* call to use section */
