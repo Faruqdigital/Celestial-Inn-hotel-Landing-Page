@@ -301,6 +301,10 @@ span {
     background-color: #fff;
 } */
 
+/* .text-secondary:hover{
+    color: white;
+} */
+
 .pricing-item:hover {
     /* border: 1px solid black; */
     padding: 95px 60px;
@@ -313,6 +317,10 @@ span {
     color: #fff;
     /* font-size: 18px; */
     /* margin: 10px; */
+}
+
+.bi-check-circle:hover {
+    background-color: #fff;
 }
 
 /* .testimonial */
@@ -630,7 +638,7 @@ footer {
 
 /* media quaries */
 /* Tablet */
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
 
     /* hero section */
     .hero {
@@ -678,6 +686,64 @@ footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+    }
+
+    .images .img {
+        position: relative;
+        border-radius: 10px;
+    }
+
+    .images .img::before {
+        content: "Luxury Room";
+        top: 54px;
+        right: 48px;
+        position: absolute;
+        color: #FF7629;
+        font-size: 27px;
+        font-weight: 600;
+        line-height: 52px;
+        letter-spacing: 0em;
+    }
+
+    /* call to use section */
+    .call h2 {
+        font-size: 62px;
+    }
+
+    .footer-newsletter {
+        margin-left: 198px;
+    }
+
+    .footer-newsletter form {
+        margin-top: 62px;
+        background: white;
+        padding: 10px 10px;
+        position: relative;
+        border-radius: 50px;
+        margin-left: -69px;
+        margin-right: 192px;
+        /* border: 1px solid #454035; */
+    }
+
+    .footer-newsletter form input[type=email] {
+        border: 0;
+        padding: 4px;
+        width: calc(100% - 110px);
+    }
+    
+    .footer-newsletter form input[type=submit] {
+        position: absolute;
+        top: -1px;
+        right: -18px;
+        bottom: -1px;
+        border: 0;
+        background: none;
+        font-size: 16px;
+        padding: 0 50px 2px 50px;
+        background: #FF7629;
+        color: #fff;
+        transition: 0.3s;
+        border-radius: 50px;
     }
 
 }
